@@ -1,0 +1,10 @@
+.Principal{
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.imagem{
+    width:25rem;
+    height: auto;
+}

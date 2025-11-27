@@ -1,0 +1,6 @@
+.coluna{
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+    font-family: 'Courier New', Courier, monospace;
+}

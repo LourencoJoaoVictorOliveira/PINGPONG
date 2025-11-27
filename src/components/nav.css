@@ -1,0 +1,22 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #eff6ff;
+    border-bottom: 2px solid #d0def5;
+    color: #000000;
+    width: 185vh;
+    font-size: 20px;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #004aad;
+  }
+  
+  nav a:hover {
+    color: #002e6e;
+  }
