@@ -1,6 +1,27 @@
-.coluna{
-    justify-content: center;
-    align-items: center;
-    display: flex;  
+.contato-container{
+    justify-items: auto ;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    background-color: #000080;
+    padding: 30px;
+}
+#Text{
+    justify-content: center;
+    text-align: center;
+    margin: 35px;
+    color: #fff;
+    font-size: 40px;
+    }
+
+.contato-form{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(184, 184, 211);
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.coluna1{
+    justify-content: left;
+    text-align: left;
 }

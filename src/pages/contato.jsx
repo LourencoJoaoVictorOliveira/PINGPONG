@@ -5,16 +5,13 @@ import Nav from "../components/nav";
 export default function Contato() {
   return (
     <>
-    <Nav/>
-    <div className='Coluna'>
-    <div className='Text'>
-      <h1>Seja bem-vindo a nossa página de contato!</h1>
-    </div>
-    <div className="contato-container">
-      {/* Nome da Empresa */}
-      <h1 className="contato-titulo">Ping Pong JL</h1>
+    <Nav/> 
 
-      {/* Informações de contato */}
+    <div className="contato-container">
+
+      <h1 id="Text">Seja bem-vindo a nossa página de contato!</h1>
+      <div className="coluna1">
+      <h1 className="contato-titulo">Ping Pong JL</h1>
       <div className="contato-infos">
         <p><strong>E-mail:</strong> contato@pingpongstore.com</p>
         <p><strong>Telefone / WhatsApp:</strong> (11) 99999-9999</p>
@@ -22,7 +19,6 @@ export default function Contato() {
         <p><strong>Horário de Atendimento:</strong> Seg a Sex, 08h às 18h</p>
       </div>
 
-      {/* Redes Sociais */}
       <div className="contato-redes">
         <h2>Redes Sociais</h2>
         <ul>
@@ -31,19 +27,19 @@ export default function Contato() {
           <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
         </ul>
       </div>
-
-      {/* Formulário de Contato */}
-      <form className="contato-form">
+      </div>
+      <div className="contato-form">
+      <form>
         <h2>Fale Conosco</h2>
-        <label htmlFor="">Nome</label> <br />
-        <input type="text" placeholder="Seu nome" required /> <br />
-        <label htmlFor="">Email</label> <br />
-        <input type="email" placeholder="Seu e-mail" required /> <br />
-        <label htmlFor="">Escreva sua mensagem </label> <br />
-        <textarea placeholder="Sua mensagem" required></textarea>
+        <label type="">Nome
+        <input type="text" placeholder="Seu nome" required /> </label> <br />
+        <label type="">Email
+        <input type="email" placeholder="Seu e-mail" required /> </label> <br />
+        <label type="">Escreva sua mensagem 
+        <textarea placeholder="Sua mensagem" required></textarea> </label><br />
         <button type="submit">Enviar</button>
       </form>
-    </div>
+      </div>
     </div>
     </>
   );
