@@ -9,8 +9,9 @@ export default function Contato() {
 
     <div className="contato-container">
 
-      <h1 id="Text">Seja bem-vindo a nossa página de contato!</h1>
+      
       <div className="coluna1">
+      <h1 id="Text">Seja bem-vindo a nossa página de contato!</h1>
       <h1 className="contato-titulo">Ping Pong JL</h1>
       <div className="contato-infos">
         <p><strong>E-mail:</strong> contato@pingpongstore.com</p>

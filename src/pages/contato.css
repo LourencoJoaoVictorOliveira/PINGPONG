@@ -1,27 +1,126 @@
-.contato-container{
-    justify-items: auto ;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #000080;
-    padding: 30px;
-}
-#Text{
-    justify-content: center;
-    text-align: center;
-    margin: 35px;
-    color: #fff;
-    font-size: 40px;
-    }
-
-.contato-form{
-    margin: 20px;
-    padding: 20px;
-    background-color: rgb(184, 184, 211);
-    font-size: 20px;
-    color: #ffffff;
-    border-radius: 10px;
-}
-.coluna1{
-    justify-content: left;
+/* Container geral */
+.contato-container {
+    display: flex;
+    justify-content: space-between;
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle at top, #003B73, #00121F, #0A0A0A);
+    padding: 40px;
+    gap: 30px;
+    color: #E2E8F0;
+}
+
+/* Título principal */
+#Text {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #00A8E8;
+    font-size: 36px;
+    text-shadow: 0 0 10px #003B73;
+}
+
+/* Coluna de informações */
+.coluna1 {
+    flex: 0 0 45%;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #003B73;
+    backdrop-filter: blur(4px);
+}
+
+/* Títulos internos */
+.contato-titulo {
+    color: #00A8E8;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-shadow: 0 0 6px #003B73;
+}
+
+.contato-infos p {
+    margin-bottom: 10px;
+    color: #cbd5e1;
+}
+
+/* Redes sociais */
+.contato-redes h2 {
+    margin-bottom: 10px;
+    color: #00A8E8;
+    text-shadow: 0 0 6px #003B73;
+}
+
+.contato-redes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contato-redes li {
+    margin-bottom: 8px;
+}
+
+.contato-redes a {
+    text-decoration: none;
+    color: #00A8E8;
+    font-weight: bold;
+}
+
+.contato-redes a:hover {
+    color: #4cc9ff;
+}
+
+/* Formulário */
+.contato-form {
+    flex: 0 0 45%;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #003B73;
+    backdrop-filter: blur(4px);
+}
+
+.contato-form h2 {
+    color: #00A8E8;
+    text-shadow: 0 0 6px #003B73;
+}
+
+/* Inputs */
+form label {
+    display: block;
+    margin: 10px 0;
+    color: #E2E8F0;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #003B73;
+    background-color: #0A0A0A;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #E2E8F0;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #94a3b8;
+}
+
+/* Botão */
+form button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #003B73;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    text-shadow: 0 0 6px #00121F;
+}
+
+form button:hover {
+    background-color: #00A8E8;
+    box-shadow: 0 0 12px #00A8E8;
 }

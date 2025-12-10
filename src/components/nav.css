@@ -1,22 +1,66 @@
+/* Cabeçalho */
 .cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background-color:	#a4a2af;
-    color: #000000;
-    width: 185vh;
+  width: 100%;
+  background: #FFFFFF;
+  border-bottom: 1px solid #CBD5E1;
+  padding: 15px 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: sticky;
+  top: 0;   
+  z-index: 1000;
+
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Título */
+.cabecalho h1 {
+  font-size: 24px;
+  color: #1E293B;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Navegação */
+.cabecalho nav {
+  display: flex;
+  gap: 20px;
+}
+
+/* Links */
+.cabecalho nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #1E293B;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+/* Hover com animação */
+.cabecalho nav a:hover {
+  background: #2563EB;
+  color: white;
+  transform: translateY(-1px);
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 600px) {
+
+  .cabecalho {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .cabecalho nav {
+    gap: 14px;
+  }
+
+  .cabecalho h1 {
     font-size: 20px;
   }
-  
-  nav a {
-    margin-left: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #d6dce4;
-  }
-  
-  nav a:hover {
-    color: #3870be;
-  }
- 
+}

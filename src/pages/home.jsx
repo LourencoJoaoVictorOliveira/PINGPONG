@@ -1,29 +1,45 @@
 import React from "react";
-import Hugo from "../assets/hugo.png";
 import "./home.css";
 import Nav from "../components/nav";
+import Noticias from "../components/noticia";
 
 export default function Home() {
   return (
     <>
       <Nav />
-        <div className="Principal">
+
+      <div className="home-container">
+
+        {/* Banner com vibe ping pong */}
+        <section className="ping-banner">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/861/861512.png"
+            alt="Raquete e bolinha"
+            className="ping-icon"
+          />
           <h1>Projeto Ping</h1>
-          <p>
-            Seja bem-vindo ao nosso site! Aqui você encontra tudo que pode pensar
-            sobre ping pong!
-          </p>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
-          </p>
-          <img src={Hugo} alt="Hugo Calderano" className="imagem" />
-        </div>
+          <p>O melhor conteúdo sobre tênis de mesa em um só lugar!</p>
+        </section>
+
+        {/* Destaques */}
+        <section className="destaques">
+          <div className="destaque-item">
+            🏓 Produtos de qualidade
+          </div>
+          <div className="destaque-item">
+            🎬 Vídeos e tutoriais
+          </div>
+          <div className="destaque-item">
+            📰 Notícias atualizadas
+          </div>
+        </section>
+
+        {/* Notícias */}
+        <section className="home-noticias-section">
+          <Noticias />
+        </section>
+
+      </div>
     </>
   );
 }
