@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import Nav from "../components/nav";
 import Noticias from "../components/noticia";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -24,13 +25,13 @@ export default function Home() {
         {/* Destaques */}
         <section className="destaques">
           <div className="destaque-item">
-            🏓 Produtos de qualidade
+            <Link to=''><p>Setups recomendados</p></Link>
           </div>
           <div className="destaque-item">
-            🎬 Vídeos e tutoriais
+            <Link to=''><p>Tutoriais, canal Fumihiro Tênis de Mesa</p></Link>
           </div>
           <div className="destaque-item">
-            📰 Notícias atualizadas
+            <p>Notícias Recentes</p>
           </div>
         </section>
 

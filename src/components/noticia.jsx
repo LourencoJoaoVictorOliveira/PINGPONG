@@ -38,6 +38,7 @@ export default function Noticias() {
                 <>
                     <div className="carrossel">
                         <button onClick={prev} className="btn">{'<'}</button>
+                        
 
                         <div className="card">
                             <h3>{filtradas[index].titulo}</h3>

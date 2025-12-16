@@ -52,13 +52,13 @@ body {
   }
   
   .destaque-item {
-    background: rgba(0, 168, 232, 0.1);
+    background: #b4c1e4;
     border: 1px solid #00A8E8;
     box-shadow: 0 0 12px rgba(0, 168, 232, 0.3);
-    padding: 15px 20px;
+    padding: 15px;
     border-radius: 10px;
     font-size: 18px;
-    color: #E2E8F0;
+    color: #ffffff;
     backdrop-filter: blur(4px);
     transition: 0.25s;
   }
