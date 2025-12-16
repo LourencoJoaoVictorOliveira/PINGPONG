@@ -24,7 +24,7 @@ export default function Noticias() {
 
     return (
         <div className='noticias-container'>
-            <h2>Últimas Notícias</h2>
+            <h2 className='noticias-header'>Últimas Notícias</h2>
 
             <input
                 type="text"

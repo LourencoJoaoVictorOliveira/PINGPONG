@@ -16,26 +16,6 @@ export const Data = [
         titulo: 'Calderano leva Brasil à maior conquista da história',
         descricao: "Atleta fatura a Copa do Mundo na China...",
         url: 'https://www.gov.br/secom/pt-br/assuntos/noticias/2025/04/calderano-leva-brasil-a-maior-conquista-da-historia-do-tenis-de-mesa-nacional-presidente-lula-celebra'
-    }
-];
-
-/* id: 1,
-        titulo: 'Hugo Calderano encara algoz de Paris na busca pelo título do WTT Finals',
-        descricao:'Mesa-tenista brasileiro encara Félix Lebrun na partida de estreia do torneio que reúne os melhores atletas da temporada',
-        url: 'https://www.cnnbrasil.com.br/esportes/outros-esportes/hugo-calderano-encara-algoz-de-paris-na-busca-pelo-titulo-do-wtt-finals/',
-
-    },
-    {
-        id: 2, 
-        titulo: 'https://www.cnnbrasil.com.br/esportes/outros-esportes/hugo-calderano-encara-algoz-de-paris-na-busca-pelo-titulo-do-wtt-finals/',
-        descricao: 'Calderano vence a Copa do Mundo de tênis de mesa', 
-        url: 'https://agenciabrasil.ebc.com.br/esportes/noticia/2025-04/calderano-vence-copa-do-mundo-de-tenis-de-mesa',
-    },
-    {
-        id: 3,
-        titulo: 'Calderano leva Brasil à maior conquista da história do tênis de mesa nacional. Presidente Lula celebra',
-        descricao: "Atleta fatura a Copa do Mundo na China vencendo o número 1 do mundo na final por 4 sets a 1. No caminho, superou o chinês número 2 do mundo e o japonês número 3",
-        url: 'https://www.gov.br/secom/pt-br/assuntos/noticias/2025/04/calderano-leva-brasil-a-maior-conquista-da-historia-do-tenis-de-mesa-nacional-presidente-lula-celebra'
     },
     {
         id: 4,
@@ -66,4 +46,5 @@ export const Data = [
         titulo: 'Calderano é vice-campeão mundial no tênis de mesa em campanha inédita',
         descricao: 'Calderano é vice-campeão mundial no tênis de mesa em campanha inédita',
         url: 'https://agenciabrasil.ebc.com.br/esportes/noticia/2025-05/calderano-e-vice-campeao-mundial-inedito-no-tenis-de-mesa-em-campanha'
-    } */
+    } 
+]
